@@ -2,78 +2,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="short icon" type="image/png" href="../img/ico.png" />
+    <link rel="short icon" type="image/png" href="img/ico.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Coleccion</title>
 </head>
+<!--BODY ↓--> 
 <body>
-    <header>
-        <div class="header">
-            <a href="home.html" class="" title="Ponte Color"> 
-            <img src="../img/kalanchoe.png" alt="LOGO">
-            <h1>KALANCHOE</h1>
+    <a name="top">
+ 
+ <!--HEADER ↓ NAV-->   
+ <header>
+   <div class="headerBox">
+    <div class="headerBox__promo">
+       <div class="headerBox__promo__slider">
+         <div class="headerBox__promo__slider__promoSlide">
+           <a href="https://mercadolibre.com.ar" target="_blank"><p>Ahora 3 ó 6 cuotas sin interés en todas tus compras </p></a>
+           <a href="https://mercadolibre.com.ar" target="_blank"><p>Evíos sin cargo para compras superiores a $14.000 </p></a>
+           <a href="https://mercadolibre.com.ar" target="_blank"><p>Ahora 3 ó 6 cuotas sin interés en todas tus compras </p></a>
+           <a href="https://mercadolibre.com.ar" target="_blank"><p>Evíos sin cargo para compras superiores a $14.000 </p></a>
+           <a href="https://mercadolibre.com.ar" target="_blank"><p>Ahora 3 ó 6 cuotas sin interés en todas tus compras </p></a>
+        </div>
+       </div>
+    </div>
+    <div class="headerBox__filaTitulo">
+ 
+        <div class="headerBox__filaTitulo__imagenTitulo">
+           <a href="home.html" class="" title="Ponte Color">
+           <img id="imagenTitulo" src="../img/kalanchoe.png" alt="LOGO">
            </a>
-         </div>
-        <div class="nav" id="navegador">
-        <nav>
-            <ul>
-                <li><a href="home.html">HOME</a></li>
-                <li><a href="newIn.html">NEW IN</a></li>
-                <li><a href="sale.html">PRE SALE</a></li>
-                <li><a href="coleccion.html">COLECCIÓN</a></li>
-                <li><a href="contacto.html">CONTACTO</a></li>
-                </ul>
-        </nav>
         </div>
-    </header>
-    <h2>COLECCION</h2>
-    <main>
-      <img src="../img/ImagenColeccion5.jpg" width="30%" alt="ImagenColeccion5">
-      <img src="../img/ImagenColeccion6.jpg" width="30%" alt="ImagenColeccion6">
-      <img src="../img/ImagenColeccion7.jpg" width="30%" alt="ImagenColeccion7">
-      <img src="../img/ImagenColeccion8.jpg" width="30%" alt="ImagenColeccion8">
-      <img src="../img/ImagenColeccion9.jpg" width="30%" alt="ImagenColeccion9">
-      <img src="../img/ImagenColeccion10.jpg" width="30%" alt="ImagenColeccion10">
-      <img src="../img/ImagenColeccion11.jpg" width="30%" alt="ImagenColeccion11">
-      <img src="../img/ImagenColeccion1.jpg" width="30%" alt="ImagenColeccion1">
-      <img src="../img/ImagenColeccion2.jpg" width="30%" alt="ImagenColeccion2">
-      <img src="../img/ImagenColeccion3.jpg" width="30%" alt="ImagenColeccion3">
-      <img src="../img/ImagenColeccion4.jpg" width="30%" alt="ImagenColeccion4">
-      <img src="../img/ImagenColeccion12.jpg" width="30%" alt="ImagenColeccion12">
-      <img src="../img/ImagenColeccion13.jpg" width="30%" alt="ImagenColeccion13">
-      <img src="../img/ImagenColeccion14.jpg" width="30%" alt="ImagenColeccion14">
-      <img src="../img/ImagenColeccion15.jpg" width="30%" alt="ImagenColeccion15">
-      <img src="../img/ImagenColeccion16.jpg" width="30%" alt="ImagenColeccion16">
-      <img src="../img/ImagenColeccion17.jpg" width="30%" alt="ImagenColeccion17">
-      <img src="../img/ImagenColeccion18.jpg" width="30%" alt="ImagenColeccion18">
-    </main>
-    <footer>
-        <nav>
-            <div class="stayInTouch">
-                <br>
-                <p>STAY IN TOUCH </p>
-                <p>♥</p>
-                <br>
-                <a href="https://www.facebook.com" target="_blank" class="" title="Seguinos en Facebook">
-                <img class="facebook_social" src="../img/facebook.png" alt="Link a Facebook">
-                </a>
-                <a href="https://twitter.com"  target="_blank" class="" title="Seguinos en Twitter">
-                <img class="twitter_social" src="../img/twitter.png" alt="Link a twitter">
-                </a>
-                <a href="https://www.instagram.com"  target="_blank" class="" title="Seguinos en Instagram">
-                <img class="instagram_social" src="../img/insta.png" alt="Link a instagram ">
-                </a>
-                <a href="https://www.youtube.com"  target="_blank" class="" title="Seguinos en Youtube">
-                <img class="youtube_social" src="../img/youtube.png" alt="Link a youtube">
-                </a>
-                <a href="https://www.tiktok.com"  target="_blank" class="" title="Seguinos en Tiktok">
-                <img class="tiktok_social" src="../img/tiktok.png" alt="Link a Tiktok">
-                </a>
+ 
+        <div class="headerBox__filaTitulo__menu">
+         <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"><!-- Button offcanvas-->
+           <img class="menuImg" src="../img/burger.png" alt="Link a Menu">
+         </button>
+ 
+         
+         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+           
+           <div class="headerBox__filaTitulo__menu__offcanvas-header">
+ 
+             <div class="headerBox__filaTitulo__menu__offcanvas-header__logo">
+               <a href="home.html" class="" title="Ponte Color">
+               <img src="../img/kalanchoe.png" alt="LOGO">
+               </a>
             </div>
-        </nav>
-        <div class="desarrollador">
-            <a href="mailto:yanina.valenci86@gmail.com" target="_blank" >Copyright Yanina Valenci
+ 
+            <div class="headerBox__filaTitulo__menu__offcanvas-header__titulo">
+             <a href="home.html" class="" title="Ponte Color">
+              <p>KALANCHOE</p> 
+             </a>
+            </div>
+ 
+             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+           </div>
+ 
+           <div class="headerBox__filaTitulo__menu__offcanvas-body">
+ 
+             <div class="headerBox__filaTitulo__menu__offcanvas-body__nav">
+ 
+               <ul class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl">
+                 <li class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item">
+                   <a class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item__link" href="home.html">HOME</a>
+                 </li>
+                 <li class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item"><a href="newIn.html">NEW IN</a></li>
+                 <li class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item"><a href="preSale.html">SALE</a></li>
+                 <li class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item"><a href="coleccion.html">COLECCIÓN</a></li>
+                 <li class="headerBox__filaTitulo__menu__offcanvas-body__nav__navegadorUl__item"><a href="contacto.html" >CONTACTO</a></li>
+               </ul>
+               
+             </div>
+ 
+             <div class="headerBox__filaTitulo__menu__offcanvas-body__contenedor" id="imagenContacto">
+               <img src="../img/ImagenColeccion20.jpg" alt="">
+             </div>
+ 
+             <p>Puntos de Venta
+                yanina.valenci86@gmail.com
+                (011) 2261-2027
+                Teléfono: Lunes a viernes de 8 a 21hs. Sábados y feriados de 9 a 18hs. Chat: Lunes a viernes de 8 a 21hs. 
+             </p>
+ 
+           </div>
+ 
+           <div class="headerBox__filaTitulo__menu__offcanvas-footer">
+ 
+             <div class="headerBox__filaTitulo__menu__offcanvas-footer__social">
+               <a href="https://www.facebook.com" class="" title="Seguinos en Facebook" target="_blank">
+               <img class="facebookSocial" src="../img/facebook.png" alt="Link a Facebook">
+               </a>
+               <a href="https://twitter.com" class="" title="Seguinos en Twitter" target="_blank">
+               <img class="twitterSocial" src="../img/twitter.png" alt="Link a twitter">
+               </a>
+               <a href="https://www.instagram.com" class="" title="Seguinos en Instagram" target="_blank">
+               <img class="instagramSocial" src="../img/insta.png" alt="Link a instagram ">
+               </a>
+               <a href="https://www.youtube.com" class="" title="Seguinos en Youtube" target="_blank">
+               <img class="youtubeSocial" src="../img/youtube.png" alt="Link a youtube">
+               </a>
+               <a href="https://www.tiktok.com" class="" title="Seguinos en Tiktok" target="_blank">
+               <img class="tiktokSocial" src="../img/tiktok.png" alt="Link a Tiktok">
+               </a>
+              </div>
+             <div class="headerBox__filaTitulo__menu__offcanvas-footer__derechos">
+             <a href="mailto:yanina.valenci86@gmail.com" >Todos los derechos reservados - Design by Yanina Valenci</a>
+             </div>
+           </div>
+         </div>        
+       </div>
+ 
+ 
+        <div class="headerBox__filaTitulo__titulo">
+           <a href="home.html" class="" title="Ponte Color">
+            <p>KALANCHOE</p> 
+           </a>
         </div>
-    </footer>
-</body>
-</html>
+ 
+        <div class="headerBox__filaTitulo__login" id="login">
+           <ul id="ulLogin">
+             <li class="buscador">
+               <a href="https://google.com.ar" title="Buscador" target="_blank">
+                <img class="buscadorImg" src="../img/search.png" alt="Buscador">
+               </a>
+             </li>
+             <li class="carrito">
+               <a href="404.html" title="Carrito" target="_blank">
+                <img class="carritoImg" src="../img/cart.png" alt="Link a carrito">
+               </a>
+             </li>
+             <li class="miCuenta">
+               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><!-- Button trigger modal -->
+                 <img class="miCuentaImg" src="../img/login.png" alt="Link a mi cuenta">
+               </button>          
+             </li>
+           </ul>
+        </div>
+ 
+    </div>
+ 
+ <!--NAV ↓-->
+ 
+     <nav class="headerBox__nav">
+       <ul class="headerBox__nav__navegadorUl">
+         <li class="headerBox__nav__navegadorUl__item--uppercase">
+           <a class="headerBox__nav__navegadorUl__item__link" href="home.html">home</a>
+         </li>
+         <li class="headerBox__nav__navegadorUl__item"><a href="newIn.html">NEW IN</a></li>
+         <li class="headerBox__nav__navegadorUl__item"><a href="preSale.html">SALE</a></li>
+         <li class="headerBox__nav__navegadorUl__item"><a href="coleccion.html"> COLECCIÓN</a></li>
+         <li class="headerBox__nav__navegadorUl__item"><a href="contacto.html" >CONTACTO</a></li>
+       </ul>
+     </nav>
+ 
+ </header>   
+ <!--HEADER ↑ NAV-->   
+ 
+  <!--MAIN ↓--> 
+     <main class="mainColeccionBox">
+       <div class="mainColeccion">  
+        <div data-aos="fade-right" data-aos-duration="3000" class="img1"><img src="../img/ImagenColeccion5.jpg"  alt="ImagenColeccion5"></div>
+        <div data-aos="fade-up" data-aos-duration="3000" class="img2"><img src="../img/ImagenColeccion6.jpg"  alt="ImagenColeccion6"></div>
+        <div data-aos="fade-left" data-aos-duration="3000"class="img3"><img src="../img/ImagenColeccion7.jpg"  alt="ImagenColeccion7"></div> 
+        <div data-aos="fade-right" data-aos-duration="1500" class="img4"><img src="../img/ImagenColeccion8.jpg"  alt="ImagenColeccion8"></div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="img5"><img src="../img/ImagenColeccion9.jpg"  alt="ImagenColeccion9"></div>
+        <div data-aos="fade-left" data-aos-duration="1500" class="img6"><img src="../img/ImagenColeccion10.jpg"  alt="ImagenColeccion10"></div>
+        <div data-aos="fade-right" data-aos-duration="1500" class="img7"><img src="../img/ImagenColeccion11.jpg"  alt="ImagenColeccion11"></div> 
+        <div data-aos="fade-up" data-aos-duration="1500" class="img8"><img src="../img/ImagenColeccion1.jpg"  alt="ImagenColeccion1"></div> 
+        <div data-aos="fade-left" data-aos-duration="1500" class="img9"><img src="../img/ImagenColeccion2.jpg"  alt="ImagenColeccion2"></div>
+        <div data-aos="fade-right" data-aos-duration="1500" class="img10"><img src="../img/ImagenColeccion3.jpg"  alt="ImagenColeccion3"></div> 
+        <div data-aos="fade-up" data-aos-duration="1500" class="img11"><img src="../img/ImagenColeccion4.jpg"  alt="ImagenColeccion4"></div> 
+        <div data-aos="fade-left" data-aos-duration="1500" class="img12"><img src="../img/ImagenColeccion12.jpg"  alt="ImagenColeccion12"></div>
+        <div data-aos="fade-right" data-aos-duration="1500" class="img13"><img src="../img/ImagenColeccion13.jpg"  alt="ImagenColeccion13"></div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="img14"><img src="../img/ImagenColeccion14.jpg"  alt="ImagenColeccion14"></div>
+        <div data-aos="fade-left" data-aos-duration="1500" class="img15"><img src="../img/ImagenColeccion15.jpg"  alt="ImagenColeccion15"></div>
+        <div data-aos="fade-right" data-aos-duration="1500" class="img16"><img src="../img/ImagenColeccion16.jpg"  alt="ImagenColeccion16"></div>
+        <div data-aos="fade-up" data-aos-duration="1500" class="img17"><img src="../img/ImagenColeccion17.jpg"  alt="ImagenColeccion17"></div>
+        <div data-aos="fade-left" data-aos-duration="1500" class="img18"><img src="../img/ImagenColeccion18.jpg"  alt="ImagenColeccion18"></div>
+       </div>
+     </main>
+  
+ <!--WHATSAPP ↓--> 
+ <div class="animate__animated animate__bounceInDown" id="whatsappAnimated">
+   <div class="whatsapp">
+      <a href="https://api.whatsapp.com/send?phone=5491122612027" title="Consulta Whatsapp" target="_blank">
+      <img class="whatsapp__whatsappImg" src="../img/whatsapp.png" alt="Link a Whatsapp"></a>
+   </div> 
+ </div>
+ <!--WHATSAPP ↑--> 
+ 
+ <!-- Modal ↓-->
+ <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+ <div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h6 class="modal-title" id="staticBackdropLabel">ACCEDÉ A TU CUENTA</h6>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <div class="form-floating mb-3">
+        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Correo Eléctronico</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+        <label for="floatingPassword">Contraseña</label>
+      </div>
+      <br>
+      <div class="mb-2 row gy-3">
+          <div class="col-sm-12">
+            <p>¿Olvidaste tu contraseña?</p>
+          </div>
+          <div class="col-sm-12">
+            <a href="#">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">INGRESAR</button>
+            </a>
+          </div>
+          <div class="col-sm-12">
+            <a href="https://www.facebook.com">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">INGRESAR CON FACEBOOK</button>
+            </a>
+          </div>
+          <div class="col-sm-12">
+          <p>¿Aun no tenés tu usuario? Registrate ahora</p>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+    </div>
+  </div>
+ </div>
+ </div>
+ <!-- Modal ↑-->
+ 
+ <!--FOOTER ↓--> 
+ 
+ <div data-aos="zoom-in-left" class="backTop">
+ <a href="#top">
+ <p>▲</p>
+ <p>Back Top</p>
+ </a>
+ </div>
+ 
+ <footer>
+  <div class="footerBox">
+    <div class="footerBox__stayInTouch">
+      <a href="contacto.html" title="Contacto">
+      <h1>STAY IN TOUCH </h1>
+      <p class="animate__animated animate__pulse" id="cuore">♥</p>
+      </a>
+    </div>
+   <div class="footerBox__social">
+     <a href="https://www.facebook.com" class="" title="Seguinos en Facebook" target="_blank">
+     <img class="facebookSocial" src="../img/facebook.png" alt="Link a Facebook">
+     </a>
+     <a href="https://twitter.com" class="" title="Seguinos en Twitter" target="_blank">
+     <img class="twitterSocial" src="../img/twitter.png" alt="Link a twitter">
+     </a>
+     <a href="https://www.instagram.com" class="" title="Seguinos en Instagram" target="_blank">
+     <img class="instagramSocial" src="../img/insta.png" alt="Link a instagram ">
+     </a>
+     <a href="https://www.youtube.com" class="" title="Seguinos en Youtube" target="_blank">
+     <img class="youtubeSocial" src="../img/youtube.png" alt="Link a youtube">
+     </a>
+     <a href="https://www.tiktok.com" class="" title="Seguinos en Tiktok" target="_blank">
+     <img class="tiktokSocial" src="../img/tiktok.png" alt="Link a Tiktok">
+     </a>
+    </div>
+   <div class="footerBox__desarrollador">
+   <a href="mailto:yanina.valenci86@gmail.com" >Desarrollado por Yanina Valenci</a>
+   </div>
+  </div>
+ </footer>
+ </div>
+ <!--FOOTER ↑-->
+ 
+ <!--SCRIPT ↓--> 
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+ <script>
+  AOS.init();
+ </script>
+ <!--SCRIPT ↑--> 
+  </body>
+ </html>
