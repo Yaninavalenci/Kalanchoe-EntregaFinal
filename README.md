@@ -5,10 +5,10 @@ _Este es mi proyecto de página web para el curso de Desarrollo Web de CoderHous
 ## Conectando 🚀
 
 _Acá el link al Repositorio_
-()
+(https://github.com/Yaninavalenci/Kalanchoe-Preentrega3)
 
 _Acá el link al proyecto_
-()
+(https://yaninavalenci.github.io/Kalanchoe-Preentrega3/)
 
 ### Mapa del Sitio 📋
 
@@ -42,7 +42,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Autores ✒️
 
-* **YaninaValenci** - *Trabajo Inicial* - [YaninaValenci](repo)
+* **YaninaValenci** - *Trabajo Inicial* - [YaninaValenci](https://github.com/Yaninavalenci/Kalanchoe-Preentrega3)
 
 
 ## Licencia 📄
@@ -56,4 +56,4 @@ Este proyecto está bajo la Licencia (YaninaValenci) - mira el archivo [LICENSE.
 * Al tutor Sebastián. 🤓
 
 ---
-⌨️ por [YaninaValenci](repo) 😊
+⌨️ por [YaninaValenci](https://github.com/Yaninavalenci/Kalanchoe-Preentrega3) 😊
