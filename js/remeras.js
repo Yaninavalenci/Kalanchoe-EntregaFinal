@@ -23,11 +23,11 @@ class Remera {
     }
     
      calcularEnvio() {
-        if(this.subTotal * 1.21 >= 14000) {
+        if(this.subTotal * 1.21 >= 100000) {
             this.envio = 0;
             return this.envio;
         } else {
-            this.envio = 800;
+            this.envio = 2000;
             return this.envio;
         }
     }
@@ -75,13 +75,13 @@ class Remera {
 
 }
 
-let remera1 = new Remera(1, 'Remera Bolt', '3700', '/img/bolt.png');
-let remera2 = new Remera(2, 'Remera Star', '3800', '/img/star.png');
-let remera3 = new Remera(3, 'Remera Cosmos', '4000', '/img/cosmos.png');
-let remera4 = new Remera(4, 'Remera Moon', '3900', '/img/moon.png');
-let remera5 = new Remera(5, 'Remera Sun', '4100', '/img/sun.png');
-let remera6 = new Remera(6, 'Remera Rainbow', '4200', '/img/rainbow.png');
-let remera7 = new Remera(7, 'Remera Saturn', '3600', '/img/saturn.png');
+let remera1 = new Remera(1, 'Remera Bolt', '13700', '/img/bolt.png');
+let remera2 = new Remera(2, 'Remera Star', '13800', '/img/star.png');
+let remera3 = new Remera(3, 'Remera Cosmos', '14000', '/img/cosmos.png');
+let remera4 = new Remera(4, 'Remera Moon', '18900', '/img/moon.png');
+let remera5 = new Remera(5, 'Remera Sun', '24100', '/img/sun.png');
+let remera6 = new Remera(6, 'Remera Rainbow', '24200', '/img/rainbow.png');
+let remera7 = new Remera(7, 'Remera Saturn', '18600', '/img/saturn.png');
 
 let arregloRemera = new Array () ;
 arregloRemera.push(remera1);

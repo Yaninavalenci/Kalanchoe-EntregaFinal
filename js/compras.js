@@ -36,11 +36,11 @@ $(document).ready(()=>{
         calcularDescuento();
 
         function calcularEnvio() {
-            if(subTotal * 1.21 >= 14000) {
+            if(subTotal * 1.21 >= 100000) {
                 envio = 0;
                 return envio;
             } else {
-                envio = 800;
+                envio = 2000;
                 return envio;
             }
         }

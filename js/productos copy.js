@@ -80,13 +80,13 @@ class Producto {
 
 }
 
-let producto1 = new Producto(1, 'Vestido Snail', '17700', 'Vestido corto estampado con mangas. Abierto adelante con pequeños botones, escote en V. Presenta botones en puños.', '/img/image01.jpg');
-let producto2 = new Producto(2, 'Sweater Zigzag', '18800', 'Sweater con escote redondo y moldería al cuerpo. Tiene estampa de rayas zigzag multicolor sobre fondo crudo o azul. Ideal para combinar con jeans en tu look de todos los días.', '/img/image02.jpg, /img/image02b');
-let producto3 = new Producto(3, 'Vestido Squamas', '17500', 'Vestido largo estampado de manga larga. Cuello redondo. Combina muy bien con botas altas hasta la rodilla y maquillaje en los parpados con purpurina.' ,'/img/image03.jpg');
-let producto4 = new Producto(4, 'Remera Moon', '3900', '/img/moon.png');
-let producto5 = new Producto(5, 'Remera Sun', '4100', '/img/sun.png');
-let producto6 = new Producto(6, 'Remera Rainbow', '4200', '/img/rainbow.png');
-let producto7 = new Producto(7, 'Remera Saturn', '3600', '/img/saturn.png');
+let producto1 = new Producto(1, 'Vestido Snail', '50900', 'Vestido corto estampado con mangas. Abierto adelante con pequeños botones, escote en V. Presenta botones en puños.', '/img/image01.jpg');
+let producto2 = new Producto(2, 'Sweater Zigzag', '38800', 'Sweater con escote redondo y moldería al cuerpo. Tiene estampa de rayas zigzag multicolor sobre fondo crudo o azul. Ideal para combinar con jeans en tu look de todos los días.', '/img/image02.jpg, /img/image02b');
+let producto3 = new Producto(3, 'Vestido Squamas', '37500', 'Vestido largo estampado de manga larga. Cuello redondo. Combina muy bien con botas altas hasta la rodilla y maquillaje en los parpados con purpurina.' ,'/img/image03.jpg');
+let producto4 = new Producto(4, 'Remera Moon', '18900', '/img/moon.png');
+let producto5 = new Producto(5, 'Remera Sun', '24100', '/img/sun.png');
+let producto6 = new Producto(6, 'Remera Rainbow', '24200', '/img/rainbow.png');
+let producto7 = new Producto(7, 'Remera Saturn', '18600', '/img/saturn.png');
 
 let arregloProducto = new Array () ;
 arregloProducto.push(producto1);

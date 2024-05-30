@@ -26,11 +26,11 @@ class Producto {
     }
     
      calcularEnvio() {
-        if(this.subTotal * 1.21 >= 14000) {
+        if(this.subTotal * 1.21 >= 100000) {
             this.envio = 0;
             return this.envio;
         } else {
-            this.envio = 800;
+            this.envio = 2000;
             return this.envio;
         }
     }
